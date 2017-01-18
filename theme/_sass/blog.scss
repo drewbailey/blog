@@ -16,6 +16,9 @@ $drew-blue-darkest: #112B3B;
 
 $drew-blue-lighter: #556D7B;
 $drew-blue-lightest: #7E8F99;
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
 
 $content-width: 800px !default;
 

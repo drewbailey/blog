@@ -1,13 +1,23 @@
+// @include "blog";
 /**
  * Site header
  */
 .site-header {
-  border-top: 5px solid $drew-blue-darker;
+  background-image: url("splash.jpg");
+  background-position: 10px -50px;
+  border-top: 5px solid $drew-blue-lighter;
   border-bottom: 1px solid $grey-color-light;
-  min-height: 56px;
-
+  min-height: 400px;
   // Positioning context for the mobile navigation icon
   position: relative;
+  .nav-wrapper {
+    background-color: #fff;
+    background-color: rgba(255,255,255,0.6);
+  }
+
+  @include media-query($on-palm){
+    min-height: 50px;
+  }
 }
 
 .site-title {

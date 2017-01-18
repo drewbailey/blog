@@ -4,27 +4,31 @@
 @charset "utf-8";
 
 // Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$base-font-size: 16px !default;
+$base-font-weight: 400 !default;
+$small-font-size: $base-font-size * 0.875 !default;
+$base-line-height: 1.5 !default;
 
-$spacing-unit:     30px;
+$spacing-unit: 30px !default;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$text-color: #555 !default;
+$background-color: #fdfdfd !default;
+$brand-color: #3A5463;
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$drew-blue: #3A5463;
+$drew-blue-darker: #233D4C;
+$drew-blue-darkest: #112B3B;
 
-// Width of the content area
-$content-width:    800px;
+$drew-blue-lighter: #556D7B;
+$drew-blue-lightest: #7E8F99;
 
-$on-palm:          600px;
-$on-laptop:        800px;
+$gray-color-light: $drew-blue-lighter;
+
+$content-width: 800px !default;
+
+$on-palm: 600px !default;
+$on-laptop: 800px !default;
 
 // Minima also includes a mixin for defining media queries.
 // Use media queries like this:
