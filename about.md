@@ -6,4 +6,4 @@ permalink: /about/
 
 ## About Me
 
-My name is Drew Bailey and I am a software developer living in DC. I currently work for [Maga Design](http://magadesign.com/)
+Hi my name is Drew Bailey. I currently live in D.C. and work as a fullstack software developer for [Maga Design](http://magadesign.com/).

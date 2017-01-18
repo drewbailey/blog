@@ -3,10 +3,8 @@
  * Site header
  */
 .site-header {
-  // background-image: url("road.jpg");
-  // // background-position: 10px -50px;
-  // background-repeat: no-repeat;
-  background: url("road.jpg") no-repeat center center fixed; 
+  background: url("darker.jpg") no-repeat 0 -400px fixed; 
+  // background: url("darker.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -23,8 +21,31 @@
   @include media-query($on-palm){
     min-height: 50px;
   }
+
 }
 
+.me {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    border-radius: 50%;
+    max-height: 100px;
+    margin-right: $spacing-unit;
+  }
+
+  h1, p {
+    color: #FFFFFF;
+  }
+  
+  @include media-query($on-palm){
+    margin-top: 0;
+    img{
+      display: none !important;
+    }
+  }
+}
 .site-title {
   font-size: 26px;
   font-weight: 300;
