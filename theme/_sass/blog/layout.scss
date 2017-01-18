@@ -3,9 +3,14 @@
  * Site header
  */
 .site-header {
-  background-image: url("splash.jpg");
-  background-position: 10px -50px;
-  border-top: 5px solid $drew-blue-lighter;
+  // background-image: url("road.jpg");
+  // // background-position: 10px -50px;
+  // background-repeat: no-repeat;
+  background: url("road.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; border-top: 5px solid $drew-blue-lighter;
   border-bottom: 1px solid $grey-color-light;
   min-height: 400px;
   // Positioning context for the mobile navigation icon
