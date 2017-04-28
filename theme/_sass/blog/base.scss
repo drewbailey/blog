@@ -146,6 +146,12 @@ pre {
   clear: both;
 }
 
+.hidden-mobile {
+  @include media-query($on-palm){
+    display: none !important;
+  }
+}
+
 
 
 /**

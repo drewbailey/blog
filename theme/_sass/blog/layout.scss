@@ -3,14 +3,14 @@
  * Site header
  */
 .site-header {
-  background: url("darker.jpg") no-repeat 0 -400px fixed; 
+  // background: url("darker.jpg") no-repeat 0 -400px fixed; 
   // background: url("darker.jpg") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; border-top: 5px solid $drew-blue-lighter;
-  border-bottom: 1px solid $grey-color-light;
-  min-height: 400px;
+  // -webkit-background-size: cover;
+  // -moz-background-size: cover;
+  // -o-background-size: cover;
+  // background-size: cover; border-top: 5px solid $drew-blue-lighter;
+  // border-bottom: 1px solid $grey-color-light;
+  // min-height: 400px;
   // Positioning context for the mobile navigation icon
   position: relative;
   .nav-wrapper {
@@ -25,7 +25,7 @@
 }
 
 .me {
-  margin-top: 100px;
+  font-family: 'Roboto', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,9 +34,11 @@
     max-height: 100px;
     margin-right: $spacing-unit;
   }
-
-  h1, p {
-    color: #FFFFFF;
+  
+  h1 {
+    color: $drew-blue-lighter;
+  }
+  p {
   }
   
   @include media-query($on-palm){

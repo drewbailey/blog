@@ -3,21 +3,20 @@ layout: default
 ---
 
 <div class="home">
-  <h1 class="page-heading">Posts</h1>
+  <div class="me">
+    <img src="{{ "/assets/headshot.jpg" | relative_url  }}">
+    <div>
+      <h1 class="intro">My name is Drew</h1>
+      <p>I write code and build web applications.</p>
+      <p>
+        I currently work at <a href="https://www.magadesign.com">Maga Design</a> as a Full Stack Developer.
+        Before that I worked with the team that built <a href="https://my.uscis.gov">myUSCIS</a>. 
+      </p>
+      <p>
+        I consider myself a generalist when it comes to languages and frameworks. Most recently I have been working with full stack javascript (React/Angular with Node/Express). I have a lot of experience with Rails as well and like to choose technologies that's right for the job over what I am most comfortable with.
+      </p>
+    </div>
+  </div>
 
   {{ content }}
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relatuve_url }}">via RSS</a></p>
 </div>

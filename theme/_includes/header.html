@@ -19,17 +19,11 @@
             <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
             {% endif %}
           {% endfor %}
+          <a class="page-link" href="{{site.url}}/assets/resume.pdf">Resume</a>
         </div>
       </nav>
 
     </div>
   </div>
 
-  <div class="me">
-    <img src="{{ "/assets/headshot.jpg" | relative_url  }}">
-    <div>
-      <h1>Drew's Blog</h1>
-      <p>My personal blog about software development and other musings.</p>
-    </div>
-  </div>
 </header>

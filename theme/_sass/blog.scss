@@ -1,4 +1,4 @@
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$base-font-family: "Roboto", sans-serif !default;
 $base-font-size: 16px !default;
 $base-font-weight: 400 !default;
 $small-font-size: $base-font-size * 0.875 !default;
@@ -10,13 +10,13 @@ $text-color: #555 !default;
 $background-color: #fdfdfd !default;
 $brand-color: #3A5463;
 
-$drew-blue: #3A5463;
-$drew-blue-darker: #233D4C;
-$drew-blue-darkest: #112B3B;
+$drew-blue: #28B0D6;
+$drew-blue-darker: #28AFB0;
+$drew-blue-darkest: #28AFB0;
 
-$drew-blue-lighter: #556D7B;
+$drew-blue-lighter: #28AFB0;
 $drew-blue-lightest: #7E8F99;
-$grey-color:       #828282;
+$grey-color:       #19647E;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
