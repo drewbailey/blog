@@ -23,6 +23,9 @@
   }
 
 }
+.nav-trigger {
+  display: none;
+}
 
 .me {
   font-family: 'Roboto', sans-serif;
@@ -46,6 +49,15 @@
     img{
       display: none !important;
     }
+   
+    label[for="nav-trigger"] {
+       display: block;
+       float: right;
+       width: 36px;
+       height: 36px;
+       z-index: 2;
+       cursor: pointer;
+     }
   }
 }
 .site-title {
@@ -103,12 +115,12 @@
       }
     }
 
-    .trigger {
+    input ~ .trigger {
       clear: both;
       display: none;
     }
 
-    &:hover .trigger {
+    input:checked ~ .trigger {
       display: block;
       padding-bottom: 5px;
     }
